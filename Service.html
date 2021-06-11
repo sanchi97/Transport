@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Provider</title>
+    <link rel="stylesheet" href="formbasestyle.css">
+
+    <!-- Latest fontawesome icons cdn link -->
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+    <!-- Latest compiled and minified CSS -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
+
+    <!-- jQuery library -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+
+    <!-- Popper JS -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script> -->
+
+    <!-- Latest compiled JavaScript -->
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
+
+</head>
+
+<body style="background:rgba(22, 6, 6, 0.7) url(pic11.jpg);
+background-blend-mode:overlay;">
+    <div class="formbase">
+        <div class="inner-box" id="card">
+            <form action="homepage.php" method="post">
+                <div class="signup-box">
+                    <h1>Register Here</h1>
+                    <div class="textbox">
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                        <input type="text" placeholder="Username" name="name">
+                    </div>
+
+                    <div class="textbox">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        <input type="number"  id="num" placeholder="enter your mobile number" name="Mnum">
+                        
+                    </div>
+
+                    <div class="textbox">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        <input type="email" placeholder="Email Id" name="email">
+                    </div>
+    
+                    <div class="textbox">
+                        <i class="fa fa-lock" aria-hidden="true"></i>
+                        <span class="fa fa-eye"  aria-hidden="true"></span>
+                        <input type="password" placeholder="Password" name="password" required>
+                    </div>
+    
+                    <input class="btn" type="submit" value="Register">
+                    <input type="checkbox"> <span>Remember me</span>
+                    <!-- <input type="button" class="btn" onclick="openLogin()" value="I've an account">
+                    <a href="#">Forgot Password</a> -->
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
