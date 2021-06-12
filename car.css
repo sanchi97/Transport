@@ -49,7 +49,7 @@ span{
     display: none;
 }
 .hero{
-    height: 100vh;
+    height: 70vh;
     width: 100%;
     background-color: #cf8b3c;
     
@@ -103,12 +103,12 @@ span{
     }
 }
 .city{
-    height:200px;
+    height:250px;
     width: 500%;
     background-image: fixed;
     background-image: url(city.png);
     position: absolute;
-    bottom: 200px;
+    bottom:20px;
     left: 0;
     right: 0;
     display: block;
@@ -124,7 +124,7 @@ span{
 .car{
     width: 15px;  
     left: 35%;
-    bottom: -20px;
+    bottom: -40px;
     position: absolute;
     z-index: 2;
 }
@@ -148,7 +148,7 @@ span{
 .wheeler{
     width: 10px;  
     left: 35%;
-    bottom: -20px;
+    bottom: -60px;
     position: absolute;
     z-index: 2;
 }
@@ -174,11 +174,11 @@ span{
     left: 35%;
     bottom: -30px;
     position: absolute;
-    z-index: 2;
+    z-index: 1;
 }
 .bike img{
 
-    animation: bike 10s ease-in-out;
+    animation: bike 8s ease-in-out;
     animation-iteration-count: infinite;
 }
 @keyframes bike{
@@ -194,9 +194,9 @@ span{
 .motorcycle{
     width: 15px;  
     left: 35%;
-    bottom: 110px;
+    bottom: -70px;
     position: absolute;
-    z-index: 1;
+    z-index: 2;
 }
 .motorcycle img{
 
@@ -216,7 +216,7 @@ span{
 .wheel{
     width: 15px;  
     left: 35%;
-    bottom: -20px;
+    bottom: -120px;
     position: absolute;
     z-index: 1;
 }
@@ -259,6 +259,7 @@ span{
   and (device-height: 800px) {
       .container{
             width: 50%;
+            height: 70vh;
             margin-top: 2%;
             margin-right: 15%;
             color: white;
