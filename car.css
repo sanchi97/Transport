@@ -11,6 +11,7 @@
     color: #fff;
     
     font-family: sans-serif;
+    background-attachment: fixed;
     
 }
 .nav-bar p{
@@ -50,7 +51,7 @@ span{
 .hero{
     height: 100vh;
     width: 100%;
-    background-color: black;
+    background-color:linear-gradient(120deg, #f6d365 0%, #fda085 100%);;
     background-size: cover;
     position: relative;
     background-position: center;
@@ -65,7 +66,7 @@ span{
     
 }
 .container h1{
-    color: yellow;
+    color:blue;
     font-size: 40px;
     text-decoration: inline;
     margin-bottom: 2%;
@@ -73,7 +74,7 @@ span{
 
 }
 .container h5{
-    color:aqua;
+    color:black;
     font-size: 25px;
     text-decoration: inline;
     margin-bottom: 2%;
@@ -100,11 +101,11 @@ span{
     }
 }
 .city{
-    height: 250px;
+    height: 300px;
     width: 500%;
+    background-image: fixed;
     background-image: url(city.png);
     position: absolute;
-    background-image: fixed;
     bottom: 200px;
     left: 0;
     right: 0;
@@ -142,7 +143,7 @@ span{
     }
 }
 .wheeler{
-    width: 15px;  
+    width: 10px;  
     left: 35%;
     bottom: -20px;
     position: absolute;
@@ -189,13 +190,13 @@ span{
 .motorcycle{
     width: 15px;  
     left: 35%;
-    bottom: 80px;
+    bottom: 110px;
     position: absolute;
     z-index: 1;
 }
 .motorcycle img{
 
-    animation: motorcycle 8s ease-in-out;
+    animation: motorcycle 5s ease-in-out;
     animation-iteration-count: infinite;
 }
 @keyframes motorcycle{
@@ -204,6 +205,29 @@ span{
     }
     100%{
         transform: translateX(-220%);
+
+
+    }
+}
+.wheel{
+    width: 15px;  
+    left: 35%;
+    bottom: -20px;
+    position: absolute;
+    z-index: 1;
+}
+.wheel img{
+
+    animation: wheel 2s ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes wheel{
+    0%{
+        transform: translateX(200%);
+    }
+    100%{
+        transform: translateX(-190%);
 
 
     }
@@ -226,6 +250,7 @@ span{
     }
     ul li{
         display: block;
+    
     }
     ul{
         display: none;
