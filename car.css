@@ -11,7 +11,7 @@
     color: #fff;
     
     font-family: sans-serif;
-    background-attachment: fixed;
+    
     
 }
 .nav-bar p{
@@ -51,11 +51,13 @@ span{
 .hero{
     height: 100vh;
     width: 100%;
-    background-color:linear-gradient(120deg, #f6d365 0%, #fda085 100%);;
+    background-color: #cf8b3c;
+    
     background-size: cover;
     position: relative;
     background-position: center;
     overflow: hidden;
+
 }
 .container{
     width: 50%;
@@ -66,7 +68,7 @@ span{
     
 }
 .container h1{
-    color:blue;
+    color:black;
     font-size: 40px;
     text-decoration: inline;
     margin-bottom: 2%;
@@ -74,7 +76,7 @@ span{
 
 }
 .container h5{
-    color:black;
+    color:white;
     font-size: 25px;
     text-decoration: inline;
     margin-bottom: 2%;
@@ -87,7 +89,7 @@ span{
     display: block;
     background-image: url(road.jpg);
     position: fixed;
-    bottom: 0;
+    bottom:0;
     left: 0;
     right: 0;
     z-index: 1;
@@ -101,7 +103,7 @@ span{
     }
 }
 .city{
-    height:250px;
+    height:200px;
     width: 500%;
     background-image: fixed;
     background-image: url(city.png);
@@ -234,7 +236,7 @@ span{
 
     }
 }
-@media (max-device-width:1500px) {
+/* @media (max-device-width:1500px) {
     .container{
         height: 100vh;
         width: 100%;
@@ -251,8 +253,58 @@ span{
       width: 50%;
     
     }
-  }
-  
+  } */
+  @media screen 
+  and (device-width: 480px) 
+  and (device-height: 800px) {
+      .container{
+            width: 50%;
+            margin-top: 2%;
+            margin-right: 15%;
+            color: white;
+            
+            
+        }
+
+      }
+
+      @media only screen and (max-width:1000px){
+        span
+        {
+            display: block;
+        }
+        
+        ul li{
+            display: block;
+        }
+        ul{
+            display: none;
+        }
+    }
+    @media screen and (max-width:1200px){
+        .container{   
+        width:100%;
+        text-align:center;
+        }
+        .container h1{
+            margin-bottom: 5%;
+        }
+        .container h3{
+            margin-bottom: 3%;
+        }
+       
+        
+        .image{
+            width: 50%;
+            position: absolute;
+            text-align: center;
+            bottom:-15%;
+          
+            display: flex;
+            justify-content: center;
+            
+        }
+
 
 
 
@@ -276,3 +328,4 @@ span{
         padding: 1px;
     }
 }
+    }
